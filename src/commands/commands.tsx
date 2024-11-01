@@ -55,15 +55,6 @@ const rawCommands: Command[] = [
 							<div className={styles.info}>{info}</div>
 						</div>
 					</div>
-
-					<div className={styles.icons}>
-						<i className="fab fa-fw fa-react"></i>
-						<i className="fab fa-fw fa-sass"></i>
-						<i className="fab fa-fw fa-js-square"></i>
-						<i className="fab fa-fw fa-node-js"></i>
-						<i className="fab fa-fw fa-python"></i>
-						<i className="fab fa-fw fa-java"></i>
-					</div>
 				</div>
 			)
 		},

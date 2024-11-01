@@ -1,29 +1,22 @@
 import React from 'react'
-const github_username = 'darkguy10'
-const discord_usertag = 'HaiseSasaki#7599'
-const discord_userid = '755109987474473059'
-const email = 'harperburn@protonmail.ch'
+const github_username = 'schmoaaaaah'
+const discord_usertag = 'schmoaaaaah'
+const discord_userid = '226718239214927875'
+const email = 'Schmoaaaaah@proton.me'
 
-const projects = [
-	'darkguy10/BotClient',
-	'darkguy10/Shellplate',
-	'darkguy10/Fakestream',
-	'darkguy10/ControlPanelAPI.js',
-	'darkguy10/Deb8M8',
-	'darkguy10/EmojiSteal',
-]
+const projects = ['schmoaaaaah/yt-dlp-stash', 'schmoaaaaah/memorygametwist']
 
 const links = [
 	{
 		name: 'GitHub',
 		icon: 'fab fa-fw fa-github',
-		link: 'https://github.com/darkguy10',
+		link: 'https://github.com/schmoaaaaah',
 		description: 'My profile on GitHub',
 	},
 	{
 		name: 'Website',
 		icon: 'fas fa-fw fa-coffee',
-		link: 'https://darkguy10.github.io/',
+		link: 'https://schmoaaaaah.com',
 		description: 'Personal website',
 	},
 	{
@@ -44,24 +37,30 @@ const links = [
 
 const info = (
 	<>
-		<p>Yo! I'm a highschooler who codes as a hobby.</p>
 		<p>
-			I've got intermediate experience with{' '}
-			<span className="highlighted">JavaScript</span> and{' '}
-			<span className="highlighted">Node.js</span>.
+			Ello. I'am a trained FiSi and currently working as a Cloud Engineer.
 		</p>
 		<p>
-			I've been doing{' '}
-			<span className="highlighted">front-end web designing</span> as a
-			fun pastime for a couple of years now. Currently, I'm learning{' '}
-			<span className="highlighted">React</span> and{' '}
-			<span className="highlighted">Next.js</span>
+			I've got intermediate experience with{' '}
+			<span className="highlighted">Python</span> and{' '}
+			<span className="highlighted">Shell Scripting</span> with bash and
+			powershell.
+		</p>
+		<p>
+			I've been doing <span className="highlighted">Selfhosting</span>{' '}
+			with K8s and Flux as a fun pastime for a couple of years now.
+			Currently, I'm learning{' '}
+			<span className="highlighted">Terraform</span> and{' '}
+			<span className="highlighted">CI/CD</span> more indepth.
 		</p>
 		<p>
 			Aside from that, I have basic knowledge of{' '}
-			<span className="highlighted">python</span>,{' '}
-			<span className="highlighted">java</span> and{' '}
-			<span className="highlighted">shell scripting.</span>
+			<span className="highlighted">c++</span>,and{' '}
+			<span className="highlighted">java</span>.
+		</p>
+		<p>
+			When i am not sitting in front of a computer, I enjoy{' '}
+			<span className="highlighted">Bouldering</span>.
 		</p>
 	</>
 )
